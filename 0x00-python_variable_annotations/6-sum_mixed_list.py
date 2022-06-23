@@ -1,4 +1,4 @@
-#! usr/bin/env python3
+#!/usr/bin/env python3
 """ python file contained sum_mixed_list """
 
 from typing import List, Union
