@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """ python file with safely get value function """
 
 from typing import Union, Mapping, Any, TypeVar
