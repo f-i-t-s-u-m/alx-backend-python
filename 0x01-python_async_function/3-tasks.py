@@ -3,9 +3,10 @@
 
 import asyncio
 import time
+from typing import Awaitable
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-def task_wait_random(max_delay: int):
+def task_wait_random(max_delay: int) -> Awaitable :
     """ task wait random time function """
     return asyncio.Task(wait_random(max_delay))
